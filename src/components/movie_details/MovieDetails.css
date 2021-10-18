@@ -1,0 +1,29 @@
+
+.back_link {
+    display: block;
+    color: #72181c;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding: 30px 50px;
+    font-size: 25px;
+    font-weight: 300;
+    width: 130px;
+    transition: 300ms;
+}
+
+.back_link:hover {
+    color: #c15050;
+}
+
+.movie_details {
+    padding: 30px 50px;
+    display: flex;
+}
+
+.movie_info {
+    margin-left: 50px;
+}
+
+.movie_info h1 {
+    margin-top: 10px;
+}

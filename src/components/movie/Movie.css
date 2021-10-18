@@ -1,0 +1,32 @@
+.movie {
+    width: 21%;
+    margin: 2%;
+    border: 3px solid #000;
+    box-sizing: border-box;
+}
+
+.movie_details_link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.poster_container {
+    height: 420px;
+    overflow: hidden;
+}
+
+.poster {
+    width: 100%;
+    border: 3px solid #72181c;
+    box-sizing: border-box;
+    transition: 300ms;
+}
+
+.poster:hover {
+    border: 3px solid #c15050;
+}
+
+.fas.fa-star, .far.fa-star {
+    color: #72181c;
+    font-size: 18px;
+}

@@ -1,0 +1,35 @@
+.search_input {
+    font-size: 22px;
+    padding: 8px;
+    border: none;
+}
+
+.clear_search {
+    color: #c15050;
+    font-size: 22px;
+    cursor: pointer;
+    margin: 0 7px;
+    position: absolute;
+    right: 40px;
+}
+
+.search_movie_form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_movie_button {
+    color: #72181c;
+    background: none;
+    border: none;
+    font-size: 22px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.search_movie_button:hover {
+    color: #c15050;
+}

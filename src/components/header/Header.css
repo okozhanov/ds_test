@@ -1,0 +1,53 @@
+.header {
+    width: 100%;
+    position: relative;
+}
+
+.background {
+    width: 100%;
+}
+
+.header > h1 {
+    color: #72181c;
+    position: absolute;
+    z-index: 1;
+    top: 150px;
+    left: 50px;
+    font-size: 55px;
+}
+
+.header > p {
+    color: #c15050;
+    position: absolute;
+    z-index: 1;
+    top: 250px;
+    left: 50px;
+    font-size: 22px;
+}
+
+.movies_link_container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movies_link {
+    position: absolute;
+    color: #72181c;
+    bottom: 140px;
+    font-size: 20px;
+    border: 2px solid #5a1114;
+    padding: 10px 17px;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: 400ms;
+}
+
+.movies_link:hover {
+    /*background: #c15050;*/
+    background: #72181c;
+    color: #fff;
+    border: 2px solid #72181c;
+}
